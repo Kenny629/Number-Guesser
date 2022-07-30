@@ -42,7 +42,7 @@ form.addEventListener("submit", function(e){
     }else if (randomNumber != numberValue){
       setMessage(
         "red",
-        "Your answer is wrong you have " + numberOfTry + "tries left"
+        "Your answer is wrong you have " + numberOfTry + " tries left"
       );
       // number.disabled = true;
       // submit.disabled = true;
