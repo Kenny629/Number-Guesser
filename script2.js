@@ -10,7 +10,6 @@ const maximumNumber = (max.textContent = 5);
 
 const randomNumber = Math.floor(Math.random() * maximumNumber) + minimumNumber;
 
-
 form.addEventListener("submit", function(e){
   let number = document.querySelector(".number");
   let numberValue = number.value;
